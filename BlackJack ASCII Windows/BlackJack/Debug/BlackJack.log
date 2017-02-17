@@ -1,0 +1,33 @@
+﻿Build started 5/4/2014 18:12:42.
+     1>Project "C:\Users\Gabriel\Documents\Full Sail Univeristy and Mudball Games\Full Sail University (First Classes)\PG2\Labs\Lab1\BlackJack\BlackJack.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\BlackJack.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\Gabriel\Documents\Full Sail University (Second Classes)\OGL\GL_Stuff\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Card.cpp Computer.cpp Deck.cpp Game.cpp Human.cpp main.cpp Player.cpp Stack.cpp
+         Stack.cpp
+         Player.cpp
+         main.cpp
+         Human.cpp
+         Game.cpp
+         Deck.cpp
+         Computer.cpp
+         Card.cpp
+         Generating Code...
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\BlackJack.exe.embed.manifest.res" Debug\BlackJack_manifest.rc 
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Gabriel\Documents\Full Sail Univeristy and Mudball Games\Full Sail University (First Classes)\PG2\Labs\Lab1\Debug\BlackJack.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\Gabriel\Documents\Full Sail University (Second Classes)\OGL\GL_Stuff\lib" gltoolsd.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\BlackJack.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Gabriel\Documents\Full Sail Univeristy and Mudball Games\Full Sail University (First Classes)\PG2\Labs\Lab1\Debug\BlackJack.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Gabriel\Documents\Full Sail Univeristy and Mudball Games\Full Sail University (First Classes)\PG2\Labs\Lab1\Debug\BlackJack.lib" /MACHINE:X86 Debug\BlackJack.exe.embed.manifest.res
+         Debug\Card.obj
+         Debug\Computer.obj
+         Debug\Deck.obj
+         Debug\Game.obj
+         Debug\Human.obj
+         Debug\main.obj
+         Debug\Player.obj
+         Debug\Stack.obj
+     1>LINK : fatal error LNK1104: cannot open file 'gltoolsd.lib'
+     1>Done Building Project "C:\Users\Gabriel\Documents\Full Sail Univeristy and Mudball Games\Full Sail University (First Classes)\PG2\Labs\Lab1\BlackJack\BlackJack.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:05.19
